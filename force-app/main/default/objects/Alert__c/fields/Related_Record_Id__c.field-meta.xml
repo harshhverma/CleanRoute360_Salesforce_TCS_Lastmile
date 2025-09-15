@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Center_Lat__c</fullName>
+    <fullName>Related_Record_Id__c</fullName>
     <externalId>false</externalId>
-    <label>Center_Lat</label>
-    <precision>15</precision>
-    <required>true</required>
-    <scale>6</scale>
+    <label>Related Record Id</label>
+    <length>19</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Number</type>
+    <type>Text</type>
     <unique>false</unique>
 </CustomField>

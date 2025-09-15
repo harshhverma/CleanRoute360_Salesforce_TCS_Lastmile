@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Status__c</fullName>
-    <label>Status</label>
+    <fullName>Frequency__c</fullName>
+    <label>Frequency</label>
     <required>true</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
@@ -11,14 +11,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Inactive</fullName>
+                <fullName>Daily</fullName>
                 <default>true</default>
-                <label>Inactive</label>
+                <label>Daily</label>
             </value>
             <value>
-                <fullName>Active</fullName>
+                <fullName>AlternateDay</fullName>
                 <default>false</default>
-                <label>Active</label>
+                <label>AlternateDay</label>
+            </value>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <label>Weekly</label>
             </value>
         </valueSetDefinition>
     </valueSet>

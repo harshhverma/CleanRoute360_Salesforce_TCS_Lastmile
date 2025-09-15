@@ -3,9 +3,8 @@
     <fullName>Ward__c</fullName>
     <externalId>false</externalId>
     <label>Ward</label>
-    <length>20</length>
-    <required>false</required>
-    <trackHistory>false</trackHistory>
+    <length>19</length>
+    <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

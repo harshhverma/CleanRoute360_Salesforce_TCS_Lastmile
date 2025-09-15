@@ -153,12 +153,13 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Zone</label>
+    <label>Complaint</label>
     <nameField>
-        <label>Zone Number</label>
-        <type>Text</type>
+        <displayFormat>CMP-{YYYY}-{0000}</displayFormat>
+        <label>Complaint Number</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Zones</pluralLabel>
+    <pluralLabel>Complaints</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
