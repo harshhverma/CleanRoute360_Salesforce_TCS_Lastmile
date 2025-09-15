@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
@@ -20,3 +21,6 @@ The `sfdx-project.json` file contains useful configuration information for your 
 =======
 # CleanRoute360_Salesforce_TCS_Lastmile
 >>>>>>> 5e14727595427f2ebc0e5f028875ac24559f49fa
+=======
+CleanRoute360_Salesforce_TCS_Lastmile
+>>>>>>> d4fb87e2cd93a6d1b7dcefd784647c05b9abfd80
