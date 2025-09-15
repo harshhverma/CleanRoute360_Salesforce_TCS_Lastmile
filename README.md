@@ -1,7 +1,1 @@
-# CleanRoute360_Salesforce_TCS_Lastmile
-
-<<<<<<< HEAD
-
-=======
-
->>>>>>> main
+CleanRoute360_Salesforce_TCS_Lastmile
