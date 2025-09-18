@@ -1,9 +1,3 @@
 CleanRoute360 Salesforce Project By Harsh Verma
 
-Google Drive TCS_Salesforce Capstone Project Document Link :  https://drive.google.com/drive/folders/1Ot_5X0_N1XvWBlIhblJBslPbT1blDsbe?usp=sharing
-
-Phase 1 Document Google Drive Link : https://drive.google.com/file/d/1OI-4YRkvkHaTxraQ5mlyavAqZmPFknDk/view?usp=sharing
-
-Phase 2 Google Document Drive Link : https://drive.google.com/file/d/1gwKdJH3QeWJ_WQrRFM9WXVZHiZhK_rST/view?usp=sharing
-
-Phase 3 Google Document Drive Link : https://drive.google.com/file/d/1jEea0Oi9da8qZ_daFc9vM2mAsrYgtCzv/view?usp=sharing
+Google Document Link : https://docs.google.com/document/d/18_2Rkr2YMco03PHKdhARWv-amWqPG4Ih5R91Mo6avgs/edit?usp=sharing
