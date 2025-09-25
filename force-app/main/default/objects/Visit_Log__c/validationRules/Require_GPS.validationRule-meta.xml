@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Require_GPS</fullName>
-    <active>true</active>
-    <errorConditionFormula>ISBLANK(Geo_Lat__c) || ISBLANK(Geo_Long__c)</errorConditionFormula>
-    <errorMessage>Please provide GPS coordinates (latitude &amp; longitude) before saving.</errorMessage>
-</ValidationRule>

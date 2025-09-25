@@ -143,10 +143,11 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Logs each waste collection visit with time and location.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>true</enableHistory>
+    <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>false</enableSearch>
@@ -155,10 +156,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Visit Log</label>
     <nameField>
-        <displayFormat>VIS-{YYYY}-{0000}</displayFormat>
-        <label>Visit_Log Name</label>
-        <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <label>Visit Log Name</label>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Visit Logs</pluralLabel>
     <searchLayouts></searchLayouts>

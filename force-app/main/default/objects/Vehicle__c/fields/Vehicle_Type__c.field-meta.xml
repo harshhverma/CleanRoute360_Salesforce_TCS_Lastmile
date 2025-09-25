@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Vehicle_Type__c</fullName>
+    <description>Type of vehicle.</description>
+    <externalId>false</externalId>
     <label>Vehicle_Type</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
@@ -11,19 +12,39 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>For primary (door-to-door) collection</fullName>
+                <fullName>Mini Tipper</fullName>
                 <default>false</default>
-                <label>For primary (door-to-door) collection</label>
+                <label>Mini Tipper</label>
             </value>
             <value>
-                <fullName>For secondary and bulk collection</fullName>
+                <fullName>Garbage Truck</fullName>
                 <default>false</default>
-                <label>For secondary and bulk collection</label>
+                <label>Garbage Truck</label>
             </value>
             <value>
-                <fullName>Specialized waste collection vehicle</fullName>
+                <fullName>E-Rickshaw Waste Carrier</fullName>
                 <default>false</default>
-                <label>Specialized waste collection vehicle</label>
+                <label>E-Rickshaw Waste Carrier</label>
+            </value>
+            <value>
+                <fullName>Speedways Electric Riko 3 Wheeler</fullName>
+                <default>false</default>
+                <label>Speedways Electric Riko 3 Wheeler</label>
+            </value>
+            <value>
+                <fullName>Mahindra/Tata/Ashok Leyland Tipper</fullName>
+                <default>false</default>
+                <label>Mahindra/Tata/Ashok Leyland Tipper</label>
+            </value>
+            <value>
+                <fullName>Open Dump Truck</fullName>
+                <default>false</default>
+                <label>Open Dump Truck</label>
+            </value>
+            <value>
+                <fullName>Compactor Truck</fullName>
+                <default>false</default>
+                <label>Compactor Truck</label>
             </value>
         </valueSetDefinition>
     </valueSet>

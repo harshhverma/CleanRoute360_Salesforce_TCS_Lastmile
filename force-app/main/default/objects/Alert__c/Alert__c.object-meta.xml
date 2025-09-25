@@ -143,10 +143,11 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Records system-generated alerts for waste collection issues.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>true</enableHistory>
+    <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>false</enableSearch>
@@ -155,13 +156,12 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Alert</label>
     <nameField>
-        <displayFormat>ALRT-{YYYY}-{0000}</displayFormat>
-        <label>Alert Name</label>
-        <trackHistory>false</trackHistory>
+        <displayFormat>ALT-{0000}</displayFormat>
+        <label>Alerts Number</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Alerts</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

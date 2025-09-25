@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_ZoneCoordinates</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+   Center_Lat__c  &lt; -90,  Center_Lat__c  &gt; 90,
+   Center_Long__c  &lt; -180,  Center_Long__c  &gt; 180
+)</errorConditionFormula>
+    <errorDisplayField>Center_Lat__c</errorDisplayField>
+    <errorMessage>Center Latitude/Longitude must be valid geographic coordinates.</errorMessage>
+</ValidationRule>

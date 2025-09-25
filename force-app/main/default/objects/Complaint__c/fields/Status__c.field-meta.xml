@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Status__c</fullName>
+    <description>Complaint status</description>
+    <externalId>false</externalId>
     <label>Status</label>
-    <required>true</required>
-    <trackHistory>false</trackHistory>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
@@ -24,6 +25,11 @@
                 <fullName>Resolved</fullName>
                 <default>false</default>
                 <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
             </value>
         </valueSetDefinition>
     </valueSet>

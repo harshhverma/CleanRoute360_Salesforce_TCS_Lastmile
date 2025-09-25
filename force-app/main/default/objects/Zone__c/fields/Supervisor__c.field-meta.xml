@@ -2,9 +2,11 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Supervisor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
+    <description>Who is responsible for this zone?</description>
+    <externalId>false</externalId>
     <label>Supervisor</label>
     <referenceTo>User</referenceTo>
-    <relationshipName>Supervisor_zones</relationshipName>
+    <relationshipName>Zones</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

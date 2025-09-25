@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_VisitTimestamp</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK(Timestamp__c) || Timestamp__c &lt; NOW()</errorConditionFormula>
+    <errorDisplayField>Timestamp__c</errorDisplayField>
+    <errorMessage>Visit Timestamp is required and cannot be in the past.</errorMessage>
+</ValidationRule>

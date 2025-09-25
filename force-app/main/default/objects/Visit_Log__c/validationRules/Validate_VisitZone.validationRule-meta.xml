@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_VisitZone</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Zone__c )</errorConditionFormula>
+    <errorDisplayField>Zone__c</errorDisplayField>
+    <errorMessage>Please select a Zone for the Visit.</errorMessage>
+</ValidationRule>
