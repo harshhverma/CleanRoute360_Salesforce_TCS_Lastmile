@@ -3,7 +3,6 @@
     <fullName>Supervisor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Who is responsible for this zone?</description>
-    <externalId>false</externalId>
     <label>Supervisor</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Zones</relationshipName>

@@ -3,7 +3,6 @@
     <fullName>Vehicle__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Vehicle making the visit.</description>
-    <externalId>false</externalId>
     <label>Vehicle</label>
     <referenceTo>Vehicle__c</referenceTo>
     <relationshipLabel>Visit Logs</relationshipLabel>

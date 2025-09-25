@@ -3,7 +3,6 @@
     <fullName>Geo_Location__c</fullName>
     <description>Location of the complaint</description>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <label>Geo_Location</label>
     <required>false</required>
     <scale>6</scale>

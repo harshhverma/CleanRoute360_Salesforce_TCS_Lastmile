@@ -18,8 +18,10 @@
             </value>
         </inputParameters>
         <nameSegment>Visit_Log__c.Alert_Supervisor_for_Missed_Pickup</nameSegment>
+        <offset>0</offset>
     </actionCalls>
     <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <decisions>
         <description>This step checks if any missed visits were found. If none, the flow ends; if there are missed visits, the flow continues to process them.</description>
         <name>Check_for_Missed_Visits</name>

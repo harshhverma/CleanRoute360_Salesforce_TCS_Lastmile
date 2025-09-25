@@ -3,7 +3,6 @@
     <fullName>Assigned_Zone__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>The Zone this Route Covers.</description>
-    <externalId>false</externalId>
     <label>Assigned_Zone</label>
     <referenceTo>Zone__c</referenceTo>
     <relationshipLabel>Routes</relationshipLabel>

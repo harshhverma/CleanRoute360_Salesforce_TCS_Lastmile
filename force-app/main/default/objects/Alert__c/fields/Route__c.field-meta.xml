@@ -3,7 +3,6 @@
     <fullName>Route__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Related route.</description>
-    <externalId>false</externalId>
     <label>Route</label>
     <referenceTo>Route__c</referenceTo>
     <relationshipLabel>Alerts</relationshipLabel>

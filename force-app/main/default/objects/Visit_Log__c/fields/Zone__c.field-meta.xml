@@ -3,7 +3,6 @@
     <fullName>Zone__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Zone serviced.</description>
-    <externalId>false</externalId>
     <label>Zone</label>
     <referenceTo>Zone__c</referenceTo>
     <relationshipLabel>Visit Logs</relationshipLabel>

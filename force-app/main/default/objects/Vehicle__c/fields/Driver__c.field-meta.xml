@@ -3,7 +3,6 @@
     <fullName>Driver__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>The driver assigned to this vehicle.</description>
-    <externalId>false</externalId>
     <label>Driver</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Vehicles</relationshipName>

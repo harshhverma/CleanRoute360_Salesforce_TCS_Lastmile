@@ -3,7 +3,6 @@
     <fullName>Assigned_Vehicle__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>The vehicle assigned to this route.</description>
-    <externalId>false</externalId>
     <label>Assigned_Vehicle</label>
     <referenceTo>Vehicle__c</referenceTo>
     <relationshipLabel>Routes</relationshipLabel>

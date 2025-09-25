@@ -3,7 +3,6 @@
     <fullName>Visit_Location__c</fullName>
     <description>Latitude and Longitude of the visit location (for mapping/tracking).</description>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <label>Visit_Location</label>
     <required>true</required>
     <scale>6</scale>

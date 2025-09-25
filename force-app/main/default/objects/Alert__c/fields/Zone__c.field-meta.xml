@@ -3,7 +3,6 @@
     <fullName>Zone__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Affected zone</description>
-    <externalId>false</externalId>
     <label>Zone</label>
     <referenceTo>Community</referenceTo>
     <relationshipName>Alerts</relationshipName>

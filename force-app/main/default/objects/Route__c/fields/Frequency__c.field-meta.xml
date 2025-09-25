@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Frequency__c</fullName>
     <description>How often the route runs.</description>
-    <externalId>false</externalId>
     <label>Frequency</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

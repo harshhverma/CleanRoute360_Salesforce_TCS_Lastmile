@@ -3,7 +3,6 @@
     <fullName>Supervisor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Supervisor responsible for this route.</description>
-    <externalId>false</externalId>
     <label>Supervisor</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Routes</relationshipName>
