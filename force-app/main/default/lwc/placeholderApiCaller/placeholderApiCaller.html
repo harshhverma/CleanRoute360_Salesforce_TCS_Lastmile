@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="API Callout Test" icon-name="standard:apex">
+        <div class="slds-m-around_medium">
+            <lightning-button label="Call API" onclick={handleApiCall} class="slds-m-bottom_small"></lightning-button>
+            <template if:true={apiResponse}>
+                <p><strong>Response:</strong></p>
+                <pre>{apiResponse}</pre>
+            </template>
+            <template if:true={error}>
+                <p class="slds-text-color_error"><strong>Error:</strong> {error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

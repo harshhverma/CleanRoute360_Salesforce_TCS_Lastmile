@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Route Status" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <p>Current Route: {routeName}</p>
+            
+            <lightning-combobox 
+                name="status"
+                label="Status"
+                value={routeStatus}
+                placeholder="Select Status"
+                options={statusOptions}
+                onchange={handleStatusChange}>
+            </lightning-combobox>
+            
+            <lightning-button label="Save Status" onclick={saveStatus} class="slds-m-top_medium"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

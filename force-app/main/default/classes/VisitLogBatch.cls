@@ -2,7 +2,6 @@ public class VisitLogBatch implements Database.Batchable<sObject>, Database.Stat
     public String query;
 
     public VisitLogBatch() {
-        // Adjust the query filter as needed for your use case
         query = 'SELECT Id, Route__c, Status__c, Visit_Location__c FROM Visit_Log__c WHERE CreatedDate = TODAY';
     }
 
@@ -15,6 +14,6 @@ public class VisitLogBatch implements Database.Batchable<sObject>, Database.Stat
     }
 
     public void finish(Database.BatchableContext BC) {
-        // Optional: Place any post-processing logic here (e.g., logging)
+        // Optional: post-processing here
     }
 }
