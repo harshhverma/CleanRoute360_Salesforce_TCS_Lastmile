@@ -1,10 +1,25 @@
 @isTest
-private class PlaceholderApiCalloutTest {
-    @isTest static void testCallout() {
-        Test.startTest();
-        // Call your method
+public class PlaceholderApiCalloutTest {
+    
+    // Mock class for HTTP Response
+    class MockHttpResponseGenerator implements HttpCalloutMock {
+        public HTTPResponse respond(HTTPRequest req) {
+            HttpResponse res = new HttpResponse();
+            res.setHeader('Content-Type', 'application/json');
+            res.setBody('{"message":"Success"}');
+            res.setStatusCode(200);
+            return res;
+        }
+    }
+
+    @isTest
+    static void testGetPlaceholderResponse() {
+        Test.setMock(HttpCalloutMock.class, new MockHttpResponseGenerator());
+
+        // Call the method
         String response = PlaceholderApiCallout.getPlaceholderResponse();
-        System.assert(response != null, 'Response should not be null');
-        Test.stopTest();
+
+        System.assertNotEquals(null, response);
+        System.assert(response.contains('Success'), 'Response should contain Success message');
     }
 }

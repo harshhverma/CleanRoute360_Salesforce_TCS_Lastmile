@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Zone__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>Affected zone</description>
     <label>Zone</label>
-    <referenceTo>Community</referenceTo>
+    <referenceTo>Zone__c</referenceTo>
+    <relationshipLabel>Alerts</relationshipLabel>
     <relationshipName>Alerts</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

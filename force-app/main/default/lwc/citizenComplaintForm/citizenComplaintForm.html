@@ -1,0 +1,123 @@
+<template>
+  <lightning-card title="Submit a Citizen Complaint" icon-name="standard:case">
+    <div class="slds-p-around_medium">
+      <div class="slds-grid slds-wrap slds-gutters_small">
+
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+          <lightning-combobox
+            name="complaintType"
+            label="Complaint Type"
+            value={complaintType}
+            placeholder="Select Complaint Type"
+            options={typeOptions}
+            onchange={handleTypeChange} >
+          </lightning-combobox>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+          <lightning-input
+            name="citizenName"
+            label="Citizen Name (optional)"
+            value={citizenName}
+            onchange={handleNameChange} >
+          </lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1">
+          <lightning-textarea
+            name="description"
+            label="Description"
+            value={description}
+            onchange={handleDescriptionChange} >
+          </lightning-textarea>
+        </div>
+
+        <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+          <lightning-input
+            name="latitude"
+            label="Latitude"
+            value={latitude}
+            onchange={handleLatChange}
+            type="number"
+            step="any" >
+          </lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+          <lightning-input
+            name="longitude"
+            label="Longitude"
+            value={longitude}
+            onchange={handleLongChange}
+            type="number"
+            step="any" >
+          </lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+          <lightning-combobox
+            name="complaintStatus"
+            label="Complaint Status"
+            value={complaintStatus}
+            options={statusOptions}
+            onchange={handleStatusChange} >
+          </lightning-combobox>
+        </div>
+
+        <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+          <lightning-input
+            name="reportedDate"
+            label="Reported Date"
+            value={reportedDate}
+            onchange={handleReportedDateChange}
+            type="date" >
+          </lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-2 slds-medium-size_1-of-4">
+          <lightning-input
+            name="reportedTime"
+            label="Reported Time"
+            value={reportedTime}
+            onchange={handleReportedTimeChange}
+            type="time" >
+          </lightning-input>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+          <lightning-combobox
+            name="zone"
+            label="Zone"
+            placeholder="Select Zone"
+            options={zoneOptions}
+            value={zoneId}
+            onchange={handleZoneChange} >
+          </lightning-combobox>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1">
+          <lightning-button
+            label="Submit Complaint"
+            variant="brand"
+            onclick={handleSubmit}
+            class="slds-m-top_medium" >
+          </lightning-button>
+        </div>
+
+        <div class="slds-col slds-size_1-of-1">
+          <template if:true={showSuccess}>
+            <div class="slds-text-color_success slds-m-top_medium">
+               Complaint submitted successfully!
+            </div>
+          </template>
+          <template if:true={showError}>
+            <div class="slds-text-color_error slds-m-top_medium">
+              {errorMessage}
+            </div>
+          </template>
+        </div>
+
+      </div>
+    </div>
+  </lightning-card>
+</template>

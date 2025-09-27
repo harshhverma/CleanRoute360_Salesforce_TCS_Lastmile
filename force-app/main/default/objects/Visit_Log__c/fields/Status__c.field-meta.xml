@@ -21,9 +21,9 @@
                 <label>Missed</label>
             </value>
             <value>
-                <fullName>Partial</fullName>
+                <fullName>Pending</fullName>
                 <default>false</default>
-                <label>Partial</label>
+                <label>Pending</label>
             </value>
         </valueSetDefinition>
     </valueSet>

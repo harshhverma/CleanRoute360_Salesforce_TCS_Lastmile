@@ -1,6 +1,6 @@
 public class VisitLogService {
     @TestVisible
-    public static Boolean disableGeoCheck = true;  // disables location validation for now
+    public static Boolean disableGeoCheck = true; 
 
     public static void checkLocationForAlerts(List<Visit_Log__c> newVisits, Map<Id, Visit_Log__c> oldVisitsMap) {
         List<Alert__c> alertsToCreate = new List<Alert__c>();
