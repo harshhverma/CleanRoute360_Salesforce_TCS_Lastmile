@@ -1,5 +1,5 @@
 public with sharing class PlaceholderApiCallout {
-    // Named Credential URL format: callout:<Named_Credential_Name>
+   
     private static final String NAMED_CREDENTIAL = 'callout:PlaceholderAPI';
 
     @AuraEnabled(cacheable=true)

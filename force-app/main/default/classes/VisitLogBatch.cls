@@ -14,6 +14,6 @@ public class VisitLogBatch implements Database.Batchable<sObject>, Database.Stat
     }
 
     public void finish(Database.BatchableContext BC) {
-        // Optional: post-processing here
+        
     }
 }

@@ -2,7 +2,7 @@
 public class ZoneControllerTest {
     @isTest
     static void testGetZones() {
-        // Test data create karo
+        
         Zone__c zone1 = new Zone__c(Name = 'Zone A');
         Zone__c zone2 = new Zone__c(Name = 'Zone B');
         insert new List<Zone__c>{zone1, zone2};

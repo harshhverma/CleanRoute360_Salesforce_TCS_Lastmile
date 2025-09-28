@@ -26,7 +26,7 @@ public class CitizenComplaintControllerTest {
             );
         Test.stopTest();
 
-        // Assert complaint was created successfully
+        // Assert complaint was created
         Citizen_Complaint__c createdComplaint = [SELECT Id, Complaint_Type__c, Description__c, Citizen_Name__c, Location__Latitude__s, Location__Longitude__s, Complaint_Status__c, Zone__c FROM Citizen_Complaint__c WHERE Id = :complaintId LIMIT 1];
         System.assertEquals(complaintType, createdComplaint.Complaint_Type__c);
         System.assertEquals(description, createdComplaint.Description__c);

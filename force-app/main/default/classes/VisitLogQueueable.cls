@@ -10,6 +10,5 @@ public class VisitLogQueueable implements Queueable {
             SELECT Id, Route__c, Status__c, Visit_Location__c FROM Visit_Log__c WHERE Id IN :visitLogIds
         ];
         VisitLogService.checkLocationForAlerts(visits, null);
-        // Optionally chain more jobs here
     }
 }
